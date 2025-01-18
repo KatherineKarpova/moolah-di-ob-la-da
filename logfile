@@ -1,0 +1,123 @@
+2025-01-18 18:52:44.767 UTC [108517] LOG:  starting PostgreSQL 14.15 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-01-18 18:52:44.768 UTC [108517] LOG:  listening on IPv6 address "::1", port 5432
+2025-01-18 18:52:44.768 UTC [108517] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-01-18 18:52:44.769 UTC [108517] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-01-18 18:52:44.772 UTC [108518] LOG:  database system was shut down at 2025-01-18 18:52:32 UTC
+2025-01-18 18:52:44.776 UTC [108517] LOG:  database system is ready to accept connections
+2025-01-18 18:52:48.779 UTC [108572] LOG:  invalid length of startup packet
+2025-01-18 18:52:49.825 UTC [108573] LOG:  invalid length of startup packet
+2025-01-18 18:52:49.857 UTC [108604] LOG:  invalid length of startup packet
+2025-01-18 18:52:49.905 UTC [108605] LOG:  invalid length of startup packet
+2025-01-18 18:52:50.316 UTC [108612] LOG:  invalid length of startup packet
+2025-01-18 18:52:55.355 UTC [108613] LOG:  invalid length of startup packet
+2025-01-18 18:52:55.382 UTC [108641] LOG:  invalid length of startup packet
+2025-01-18 18:52:55.428 UTC [108642] LOG:  invalid length of startup packet
+2025-01-18 18:53:25.488 UTC [108886] LOG:  invalid length of startup packet
+2025-01-18 18:53:31.747 UTC [108945] FATAL:  role "my_user" does not exist
+2025-01-18 18:54:25.552 UTC [109313] LOG:  invalid length of startup packet
+2025-01-18 18:55:03.346 UTC [109558] FATAL:  role "postgres" does not exist
+2025-01-18 18:56:18.924 UTC [110076] FATAL:  role "my_user" does not exist
+2025-01-18 18:56:32.089 UTC [110188] FATAL:  database "codespace" does not exist
+2025-01-18 19:00:58.051 UTC [112235] LOG:  starting PostgreSQL 14.15 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-01-18 19:00:58.051 UTC [112235] LOG:  could not bind IPv6 address "::1": Address already in use
+2025-01-18 19:00:58.051 UTC [112235] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-01-18 19:00:58.051 UTC [112235] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2025-01-18 19:00:58.051 UTC [112235] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-01-18 19:00:58.051 UTC [112235] WARNING:  could not create listen socket for "localhost"
+2025-01-18 19:00:58.051 UTC [112235] FATAL:  could not create any TCP/IP sockets
+2025-01-18 19:00:58.054 UTC [112235] LOG:  database system is shut down
+2025-01-18 19:01:57.863 UTC [112807] LOG:  starting PostgreSQL 14.15 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-01-18 19:01:57.863 UTC [112807] LOG:  could not bind IPv6 address "::1": Address already in use
+2025-01-18 19:01:57.863 UTC [112807] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-01-18 19:01:57.864 UTC [112807] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2025-01-18 19:01:57.864 UTC [112807] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-01-18 19:01:57.864 UTC [112807] WARNING:  could not create listen socket for "localhost"
+2025-01-18 19:01:57.864 UTC [112807] FATAL:  could not create any TCP/IP sockets
+2025-01-18 19:01:57.866 UTC [112807] LOG:  database system is shut down
+2025-01-18 19:03:51.420 UTC [113638] FATAL:  role "postgres" does not exist
+2025-01-18 19:06:26.904 UTC [114935] FATAL:  role "postgres" does not exist
+2025-01-18 19:07:05.382 UTC [115264] FATAL:  database "codespace" does not exist
+2025-01-18 19:09:40.349 UTC [116289] FATAL:  database "codespace" does not exist
+2025-01-18 19:10:54.768 UTC [116833] FATAL:  role "postgres" does not exist
+2025-01-18 19:12:55.518 UTC [117743] LOG:  starting PostgreSQL 14.15 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-01-18 19:12:55.518 UTC [117743] LOG:  could not bind IPv6 address "::1": Address already in use
+2025-01-18 19:12:55.518 UTC [117743] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-01-18 19:12:55.518 UTC [117743] LOG:  could not bind IPv4 address "127.0.0.1": Address already in use
+2025-01-18 19:12:55.518 UTC [117743] HINT:  Is another postmaster already running on port 5432? If not, wait a few seconds and retry.
+2025-01-18 19:12:55.518 UTC [117743] WARNING:  could not create listen socket for "localhost"
+2025-01-18 19:12:55.518 UTC [117743] FATAL:  could not create any TCP/IP sockets
+2025-01-18 19:12:55.521 UTC [117743] LOG:  database system is shut down
+2025-01-18 19:13:48.783 UTC [108517] LOG:  received smart shutdown request
+2025-01-18 19:13:48.788 UTC [108517] LOG:  background worker "logical replication launcher" (PID 108524) exited with exit code 1
+2025-01-18 19:13:48.789 UTC [108519] LOG:  shutting down
+2025-01-18 19:13:48.803 UTC [108517] LOG:  database system is shut down
+2025-01-18 19:13:55.590 UTC [118266] LOG:  starting PostgreSQL 14.15 (Homebrew) on x86_64-pc-linux-gnu, compiled by gcc-11 (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2025-01-18 19:13:55.591 UTC [118266] LOG:  listening on IPv6 address "::1", port 5432
+2025-01-18 19:13:55.591 UTC [118266] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2025-01-18 19:13:55.599 UTC [118266] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2025-01-18 19:13:55.604 UTC [118267] LOG:  database system was shut down at 2025-01-18 19:11:46 UTC
+2025-01-18 19:13:55.610 UTC [118266] LOG:  database system is ready to accept connections
+2025-01-18 19:13:57.898 UTC [118320] LOG:  invalid length of startup packet
+2025-01-18 19:13:58.943 UTC [118321] LOG:  invalid length of startup packet
+2025-01-18 19:13:58.971 UTC [118325] LOG:  invalid length of startup packet
+2025-01-18 19:13:59.019 UTC [118326] LOG:  invalid length of startup packet
+2025-01-18 19:14:04.090 UTC [118381] LOG:  invalid length of startup packet
+2025-01-18 19:25:56.946 UTC [121884] ERROR:  relation "categories" does not exist
+2025-01-18 19:25:56.946 UTC [121884] STATEMENT:  CREATE TABLE monthly_budget(
+	    category_id INTEGER UNIQUE,
+	    amount INTEGER,
+	    FOREIGN KEY (category_id) REFERENCES categories(id)
+	);
+2025-01-18 19:26:20.371 UTC [121884] ERROR:  relation "categories" does not exist
+2025-01-18 19:26:20.371 UTC [121884] STATEMENT:  CREATE TABLE monthly_budget(
+	    category_id INTEGER UNIQUE,
+	    amount INTEGER,
+	    FOREIGN KEY (category_id) REFERENCES categories(id)
+	);
+2025-01-18 19:26:26.139 UTC [121884] ERROR:  relation "categories" already exists
+2025-01-18 19:26:26.139 UTC [121884] STATEMENT:  CREATE TABLE categories (
+	    id SERIAL PRIMARY KEY,
+	    name VARCHAR(100) NOT NULL UNIQUE
+	);
+2025-01-18 19:27:36.752 UTC [121884] ERROR:  syntax error at or near "." at character 1
+2025-01-18 19:27:36.752 UTC [121884] STATEMENT:  .schema
+	select * from categories;
+2025-01-18 19:29:22.094 UTC [121884] ERROR:  syntax error at or near "PRIMARY" at character 123
+2025-01-18 19:29:22.094 UTC [121884] STATEMENT:  CREATE TABLE monthly_budget(
+	    category_id INTEGER UNIQUE,
+	    amount INTEGER,
+	    FOREIGN KEY (category_id) REFERENCES PRIMARY KEY ategories(id)
+	);
+2025-01-18 19:29:32.288 UTC [121884] ERROR:  syntax error at or near "PRIMARY" at character 123
+2025-01-18 19:29:32.288 UTC [121884] STATEMENT:  CREATE TABLE monthly_budget(
+	    category_id INTEGER UNIQUE,
+	    amount INTEGER,
+	    FOREIGN KEY (category_id) REFERENCES PRIMARY KEY categories(id)
+	);
+2025-01-18 19:36:44.742 UTC [121884] ERROR:  syntax error at or near "/" at character 1
+2025-01-18 19:36:44.742 UTC [121884] STATEMENT:  /d monthly_budget;
+2025-01-18 20:00:32.181 UTC [121884] ERROR:  syntax error at or near ";" at character 179
+2025-01-18 20:00:32.181 UTC [121884] STATEMENT:  CREATE TABLE transactions(
+	    id SERIAL PRIMARY KEY,
+	    category_id INTEGER,
+	    amount MONEY,
+	    date DATE DEFAULT CURRENT_DATE,
+	    FOREIGN KEY (category_id) REFERENCES cate;
+	);
+2025-01-18 20:01:28.263 UTC [121884] ERROR:  syntax error at or near "/" at character 1
+2025-01-18 20:01:28.263 UTC [121884] STATEMENT:  /d transactions
+	;
+2025-01-18 20:25:18.442 UTC [151148] FATAL:  role "my_user" does not exist
+2025-01-18 20:25:55.422 UTC [151442] FATAL:  role "my_user" does not exist
+2025-01-18 20:26:38.311 UTC [151787] FATAL:  role "my_user" does not exist
+2025-01-18 20:28:09.541 UTC [152431] FATAL:  role "my_user" does not exist
+2025-01-18 20:28:19.993 UTC [152540] FATAL:  role "my_user" does not exist
+2025-01-18 20:28:41.031 UTC [152667] ERROR:  SELECT * with no tables specified is not valid at character 8
+2025-01-18 20:28:41.031 UTC [152667] STATEMENT:  select *;
+2025-01-18 20:31:02.515 UTC [153781] FATAL:  role "my_user" does not exist
+2025-01-18 20:31:49.242 UTC [154106] FATAL:  role "my_user" does not exist
+2025-01-18 20:32:32.456 UTC [154458] FATAL:  role "my_user" does not exist
+2025-01-18 20:33:36.653 UTC [154895] FATAL:  role "my_user" does not exist
+2025-01-18 20:34:45.150 UTC [155377] FATAL:  role "my_user" does not exist
+2025-01-18 20:35:33.035 UTC [155719] FATAL:  role "my_user" does not exist
+2025-01-18 20:37:31.389 UTC [156489] FATAL:  role "my_user" does not exist
