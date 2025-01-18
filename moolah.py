@@ -1,9 +1,9 @@
-from config import connect_db, get_cursor
+from config import connect_db
 from psycopg2.extras import NamedTupleCursor
 
 # I shoulde probably make it so the bills/items I pay for every month are in their own tables
 
-monthly_budgets = {
+category_budgets = {
     "fixed bills", 
     "variable bills",
     "essential misc.",
